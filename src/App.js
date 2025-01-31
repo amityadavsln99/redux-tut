@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import User from './User';
 import HomeContainer from './containers/HomeContainer';
+import HeaderContainer from './containers/HeaderContainer';
 
 // function App() {
 //   return (
@@ -31,6 +32,7 @@ function App(){
     <div className='App'>
       {/* <h1>App Component</h1> */}
       {/* <User data={{name:'amit yadav',age:26}} /> */}
+      <HeaderContainer />
       <HomeContainer />
     </div>
   )
